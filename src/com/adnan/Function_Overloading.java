@@ -5,6 +5,11 @@ public class Function_Overloading {
         // function overloading is only done when two or more functions of same name exist
         // but have different no.of or typeof parameters while declaring the functions
         // function overloading happens in compiletime when our code is being compiled .
+
+
+        // Ambiguity occurs when we use varargs and function overloading at the same time
+        // as the compiler fails to decide in calling the correct function;
+        // the compiler throws error in this case
     }
 
     // 1st declaration of func with parameter int a;
