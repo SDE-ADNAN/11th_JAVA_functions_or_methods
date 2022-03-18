@@ -14,7 +14,7 @@ public class VarArgs {
     // the main part is the (...) operator responsible for varargs/variableLengthArguments;
     // the varargs must be in the last of multiple types args or this will throw error;
     // u cannot skip the sequence of methods parameters with different args; i.e sequence of param == sequence of arguments
-    
+
 
     static void fun(int ...v){
         System.out.println(Arrays.toString(v));
