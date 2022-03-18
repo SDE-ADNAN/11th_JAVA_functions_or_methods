@@ -10,6 +10,7 @@ public class ChangeValue {
         System.out.println(Arrays.toString(arr));
     }
     static void Change(int[]nums){
-        nums[0] = 99;
+        nums[0] = 99; //if u change the object with this refrence variable then ,
+                      // u are indirectly changing the original object i.e the array here...
     }
 }
