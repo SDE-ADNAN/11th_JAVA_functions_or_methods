@@ -8,6 +8,15 @@ public class Sum {
 //	sum();
         int ans = sum2();
         System.out.println(ans);
+
+        int Sum = sum(20,30);
+
+        System.out.println(Sum);
+    }
+
+    //pass the values while function call
+    static int sum(int a ,int b){
+        return a+b;
     }
 
     //function returning a value
