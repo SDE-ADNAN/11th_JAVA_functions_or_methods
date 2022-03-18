@@ -1,10 +1,15 @@
 package com.adnan;
 
+import java.util.Scanner;
+
 public class Function_returning_string_value {
     public static void main(String[] args) {
 //        String message = greet();
 //        System.out.println(message);
-        String Cgreet = CustomGreet("'ADNAN KHAN'");
+        Scanner  in = new Scanner(System.in);
+        String name = in.nextLine();
+
+        String Cgreet = CustomGreet(name);
         System.out.println(Cgreet);
     }
 
