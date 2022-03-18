@@ -43,4 +43,20 @@ public class Sum {
     //}
 
 
+    /*
+      public static int add(int x, int y) { //x, y are parameters here
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        int sum = add(x, y); //x, y are arguments here
+        System.out.println("SUM IS: " +sum);
+    }
+
+
+    */
+
+
 }
